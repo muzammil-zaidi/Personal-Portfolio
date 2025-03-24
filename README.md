@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This project showcases my skills, experience, and projects using **HTML** and **CSS**.
 
 ## 🔥 Live Preview
-[Click here to view my portfolio](#) *(Update this with your GitHub Pages link once deployed)*
+[Click here to view my portfolio](#) *()*
 
 ## 🛠️ Technologies Used
 - HTML5
