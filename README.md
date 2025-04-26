@@ -2,6 +2,11 @@
 
 Welcome to my personal portfolio repository! This project showcases my skills, experience, and projects using **HTML** and **CSS**.
 
+# 🔗 Visit Website
+You can view the live portfolio here:  
+👉 [Visit My Portfolio](https://personal-portfolio-lmeo-git-main-muzammils-projects-a4702b41.vercel.app/)
+
+
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
