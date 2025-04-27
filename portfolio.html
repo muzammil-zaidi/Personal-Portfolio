@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muzammil Zaidi - Portfolio</title>
     <style>
+        /* General Styles */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -14,6 +15,7 @@
             text-align: center;
         }
 
+        /* Header Styling */
         header {
             background: linear-gradient(90deg, #a92147, #a92147);
             padding: 20px;
@@ -72,6 +74,7 @@
             list-style: none;
         }
 
+        /* Section Styling */
         section {
             margin: 50px auto;
             padding: 40px;
@@ -94,6 +97,32 @@
             line-height: 1.6;
         }
 
+        /* education Section */
+        .education-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .education {
+            background: linear-gradient(90deg, #614242, #ff2e63);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(255, 47, 99, 0.5);
+        }
+
+        .education:hover {
+            background: rgba(205, 29, 29, 0.2);
+            text-shadow: 0px 0px 8px #150505;
+            list-style: none;
+        }
+
+        /* Skills Section */
         .skills-container {
             display: flex;
             flex-wrap: wrap;
@@ -118,6 +147,32 @@
             list-style: none;
         }
 
+        /* certificates Section */
+        .certificates-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .certificates {
+            background: linear-gradient(90deg, #ff8c00, #ff2e63);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(255, 47, 99, 0.5);
+        }
+
+        .certificates:hover {
+            background: rgba(205, 29, 29, 0.2);
+            text-shadow: 0px 0px 8px #150505;
+            list-style: none;
+        }
+
+        /* Social Links */
         .social-links {
             display: flex;
             justify-content: center;
@@ -146,6 +201,7 @@
             border-radius: 50%;
         }
 
+        /* Footer Styling */
         footer {
             background: linear-gradient(90deg,#a92147, #a92147);
             padding: 20px;
@@ -163,8 +219,10 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -184,29 +242,38 @@
 
     <section id="about">
         <h2>About Me</h2>
+        <img src="C:\Users\PMLS\Documents\Muzammil\WhatsApp Image 2025-04-18 at 1.52.25 AM.jpeg" alt="Muzammil Zaidi" style="width: 200px; height: 200px; border-radius: 50%; margin: 20px 0; margin-bottom: 50px; object-fit: cover;">
         <p>
-            Hello! I’m Muzammil Zaidi, a passionate Computer Science student with a keen interest in software development, problem-solving, and technology. 
+            Hello! I’m Muzammil Zaidi, a passionate Computer Science student with a keen interest in software development, problem-solving, and technology.
             From an early age, I’ve been fascinated by how technology shapes our world, and this curiosity led me to dive into the exciting field of programming.
         </p>
-        
         <p>
             I specialize in C, C++, HTML, CSS, and JavaScript, and I enjoy working on projects that challenge me to think critically and find innovative solutions.
             Whether it’s developing applications, designing intuitive user experiences, or optimizing code efficiency, I’m always eager to learn and improve.
         </p>
-    
-        <p>
-            Apart from coding, I enjoy collaborating on projects, brainstorming creative ideas, and continuously expanding my skill set. 
-            I believe in lifelong learning and staying updated with the latest trends in the tech industry.
-        </p>
-    
     </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <div class="skills-container">
+            <div class="education"><h3>Currently Studying: BSCS at FAST </h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz1WjKfXaSb-_dSkLs5lWLtTtu8b2P02WmDg&s" alt="Fast">
+            </div>
+            <div class="education"><h3>Intermediate: Adamjee Science College </h3>
+                <img src="https://media.licdn.com/dms/image/v2/C4D1BAQGUruDz02uYEw/company-background_10000/company-background_10000/0/1642464756669/adamjeesciencecollegekarachi_cover?e=2147483647&v=beta&t=Hv_FSG34GhD-Na4dXdSqv2bpuGOxDvowaXnwhTTQheM" alt="AGSC">
+            </div>
+            <div class="education"><h3>Schooling: Qamar-e-Bani Hashim Higher Secondary </h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFKe7kw8hGrCakxL7JDwi1N66AAVxOjiHc4A&s" alt="QBHS">
+            </div>
+        </div>
+    </section>
+
     
     <section id="projects">
         <h2>Projects</h2>
         <div class="skills-container">
             <div class="project">Inventory Management System</div>
             <div class="project">Personal Blog Website</div>
-            <div class="project">Portfolio</div>
         </div>
     </section>
 
@@ -223,6 +290,16 @@
         </div>
     </section>
 
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates-container">
+            <div class="certificates"><h3> Coders Cup'24 </h3> Participated in C Language competition. </div>
+            <div class="certificates"><h3> Procom'25 </h3> Participated in AlgoShowdown competition.</div>
+            <div class="certificates"><h3> Developers Day'25 </h3> Participated in Code Relay (C++) competition.</div>
+        </div>
+    </section>
+    
+    
     <section id="contact">
         <h2>Contact</h2>
 
@@ -248,7 +325,7 @@
 
     <footer>
         <p>✨ Keep Learning, Keep Growing ✨</p>
-        <p>&copy; 2025 Muzammil Zaidi | All Rights Reserved</p>
+        <p>&copy; 2025 | Designed By Muzammil Zaidi | All Rights Reserved</p>
     </footer>
 </body>
 </html>
